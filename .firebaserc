@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "life-rotation": {
+      "hosting": {
+        "life-rotation": [
+          "life-rotation"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+
+.title-element-container {
+  padding-top: 45px;
+  font-size: 50px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: darkslategray;
+}
+
+.tabs-container {
+  padding-top: 24px;
+}
+
+.main-container {
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.main-page {
+  background-image: url("src/assets/mph.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:host {
+  ::ng-deep .ui-tabview.ui-tabview-top .ui-tabview-nav li {
+    width: 50%;
+    margin-right: 0;
+    text-align: center;
+    color: darkslategray;
+  }
+
+  ::ng-deep .ui-tabview.ui-tabview-top .ui-tabview-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ::ng-deep .ui-tabview .ui-tabview-panels {
+    border: none;
+  }
+
+  ::ng-deep .ui-tabview .ui-tabview-panels {
+    background-color: #9dbac8;
+  }
+}
