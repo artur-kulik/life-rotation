@@ -1,6 +1,6 @@
 
 .title-element-container {
-  padding-top: 45px;
+  bottom: 0;
   font-size: 50px;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: darkslategray;
@@ -8,6 +8,7 @@
 
 .tabs-container {
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .main-container {
@@ -17,14 +18,22 @@
 
 .main-page {
   background-image: url("src/assets/mph.jpg");
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 450px;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.text-24 {
+  font-size: 45px;
+}
+
+.text-12 {
+  font-size: 24px;
 }
 
 :host {
